@@ -1,0 +1,50 @@
+.section-reviews {
+  padding: 15rem;
+  margin: 5rem 0 0 0;
+  position: relative;
+}
+
+.title-reviews {
+  text-align: center;
+  transform: scaleX(12deg);
+  margin-bottom: 5.5rem;
+  color: white;
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+.bg-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+
+  overflow: hidden;
+}
+
+.video-content {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.review-img-hover-zoom {
+  overflow: hidden;
+}
+.img-review {
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  border: 3px solid green;
+  box-shadow: 5px 10px 8px #888888;
+  transition: transform 0.5s ease;
+}
+
+.img-review:hover {
+  transform: scale(1.1);
+}
+
+.review-con {
+  text-align: center;
+}

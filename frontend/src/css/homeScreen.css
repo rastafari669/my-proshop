@@ -1,0 +1,20 @@
+.screen-shot {
+  width: 100%;
+  height: 800px;
+  background: url("https://images.macrumors.com/t/jXqUxBjwyt16A254unbNN51zn9A=/1920x/https://images.macrumors.com/article-new/2019/02/MR-Future-Products-2020-2.png")
+    center no-repeat;
+  background-repeat: no-repeat, no-repeat;
+  object-fit: cover;
+  background-size: cover;
+  position: relative;
+}
+
+.inner-con {
+  width: 40%;
+  height: 20%;
+  top: 45%;
+  right: 20%;
+  margin: 0 auto;
+  position: relative;
+  z-index: 10;
+}
