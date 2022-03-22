@@ -1,6 +1,6 @@
 # my-proshop
-Navigate to frontend file and run npm i. 
-Navigate back to root file and run npm i and after run npm run dev, to start the backend and the frontend.
+Navigate to frontend folder and run npm i. 
+Navigate back to root folder and run npm i and after run npm run dev, to start the backend and the frontend.
 I am aware that .env file should be in the .gitignore file, I added it solely for studetial personal project purposes.
 
 
